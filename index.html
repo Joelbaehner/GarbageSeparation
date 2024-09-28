@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GarbageSeparation</title>
+  <!--Relative link to the CSS file within the same folder-->
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+      <h1>Garbage Separation In Germany</h1>
+     <!--The div with the class of garbage displays the random garbage object-->
+      <div class="garbage"></div>
+      <div class="bins"></div>
+
+        <h3>Select a bin for your garbage:</h3>
+<!--The form element is suizted for interactive sections where users can select or write somethin etc.-->
+        <form id="binsForm">
+            <!--label elements each with an input element inside of them.-->
+          <label>
+            <input type="radio" name="bin" value="bio">
+            Bio
+            <!--br is a self closing element that works like ENTER (Zeilenumbruch/break)-->
+          </label><br>
+
+          <label>
+            <input type="radio" name="bin" value="paper">
+            Paper
+          </label><br>
+
+          <label>
+            <input type="radio" name="bin" value="plastic">
+            Plastic
+          </label><br>
+
+          <label>
+            <input type="radio" name="bin" value="restmüll">
+            Restmüll
+          </label><br>
+        </form>
+<!--If we klick the button the onclick funtion activates our "checkAnswer()" function within javascript-->
+    <button onclick="checkAnswer()" id="submitBtn">Check  Answer</button>
+     <!--The div with the class of "result" displays weather your answer was correct or false
+     with the provided sting in the if...else-->
+    <div class="result"></div>
+<!--Instead of refreshing the page I created this new button with a new function that is defined in JS-->
+    <button onclick="refreshGarbageItem()" id="refreshBtn">Show me a new item</button>
+  </main>
+<!--Relative link to the javascript file within the same folder-->
+  <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
