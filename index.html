@@ -7,14 +7,26 @@
   <title>GarbageSeparation</title>
   <!--Relative link to the CSS file within the same folder-->
   <link href="styles.css" rel="stylesheet" type="text/css" />
+<<<<<<< HEAD
+=======
+  <audio id="failSound" src="mp3/fail.mp3"></audio>
+  <audio id="winSound" src="mp3/git.mp3"></audio>
+>>>>>>> 8fe41ba (Chris Version)
 </head>
 
 <body>
   <main>
       <h1>Garbage Separation In Germany</h1>
      <!--The div with the class of garbage displays the random garbage object-->
+<<<<<<< HEAD
       <div class="garbage"></div>
       <div class="bins"></div>
+=======
+     <div id="timer">Timer: 000 sec.</div>     <!--timer: -->
+     <div id="score">Score: 000</div>     <!--Score-Counter-->
+     <img id="garbageImage" alt=" ">           <!--Image: Problem: without alt the pictur will not been shown-->
+     <div class="garbage"></div>               <!--Garbage-Item-->
+>>>>>>> 8fe41ba (Chris Version)
 
         <h3>Select a bin for your garbage:</h3>
 <!--The form element is suizted for interactive sections where users can select or write somethin etc.-->
@@ -48,9 +60,17 @@
     <div class="result"></div>
 <!--Instead of refreshing the page I created this new button with a new function that is defined in JS-->
     <button onclick="refreshGarbageItem()" id="refreshBtn">Show me a new item</button>
+<<<<<<< HEAD
   </main>
 <!--Relative link to the javascript file within the same folder-->
   <script type="module" src="script.js"></script>
+=======
+    <div id="score"></div>
+  </main>
+<!--Relative link to the javascript file within the same folder-->
+  <!-- <script type="module" src="script.js"></script> -->
+  <script src="script.js"></script> <!-- Chris Version, excluded "module" -->
+>>>>>>> 8fe41ba (Chris Version)
 
 </body>
 

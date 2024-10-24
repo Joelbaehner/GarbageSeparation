@@ -1,0 +1,18 @@
+Garbage Seperation in Germany
+
+
+Added:
+0 -added an introduction to the page
+1 -a Countdown for every garbage selection
+2 -a score (counter-logic: u earn 100 Points + the number of Lefttime)
+3 -Picture to every item
+4 -created a logic for showing items only ones
+
+
+
+
+
+Next steps/ Things to code:
++ realising a clean finish: after, Checking the last item: for example Display you finished, thats your score (Point 4)
+
++ Blocking the check answere-button as long as no radio-botton is choosen

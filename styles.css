@@ -44,6 +44,10 @@ main {
 /*Main header*/
 h1 {
     font-size: 3rem;
+<<<<<<< HEAD
+=======
+    margin-top: 0px;
+>>>>>>> 8fe41ba (Chris Version)
 }
 
 h3 {
